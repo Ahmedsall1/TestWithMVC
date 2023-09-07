@@ -1,0 +1,373 @@
+{
+  "Files": [
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TestWithMVC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TestWithMVC.bundle.scp.css"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Category\\Audio(1).jpeg",
+      "PackagePath": "staticwebassets\\Images\\Category\\Audio(1).jpeg"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Category\\Audio(1).png",
+      "PackagePath": "staticwebassets\\Images\\Category\\Audio(1).png"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Category\\Audio(1)1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Category\\Audio(1)1.jpg"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Category\\Audio.jpg",
+      "PackagePath": "staticwebassets\\Images\\Category\\Audio.jpg"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Category\\Audio.png",
+      "PackagePath": "staticwebassets\\Images\\Category\\Audio.png"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Category\\Camera(1).png",
+      "PackagePath": "staticwebassets\\Images\\Category\\Camera(1).png"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Category\\Camera.png",
+      "PackagePath": "staticwebassets\\Images\\Category\\Camera.png"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Category\\Laptop(1).png",
+      "PackagePath": "staticwebassets\\Images\\Category\\Laptop(1).png"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Category\\Laptop.png",
+      "PackagePath": "staticwebassets\\Images\\Category\\Laptop.png"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Category\\PC(1).jpg",
+      "PackagePath": "staticwebassets\\Images\\Category\\PC(1).jpg"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Category\\PC(1).png",
+      "PackagePath": "staticwebassets\\Images\\Category\\PC(1).png"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Category\\PC.png",
+      "PackagePath": "staticwebassets\\Images\\Category\\PC.png"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Category\\Phone(1).png",
+      "PackagePath": "staticwebassets\\Images\\Category\\Phone(1).png"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Category\\Phone.png",
+      "PackagePath": "staticwebassets\\Images\\Category\\Phone.png"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Category\\Tablet(1).png",
+      "PackagePath": "staticwebassets\\Images\\Category\\Tablet(1).png"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Category\\Tablet.png",
+      "PackagePath": "staticwebassets\\Images\\Category\\Tablet.png"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Category\\Tv(1).png",
+      "PackagePath": "staticwebassets\\Images\\Category\\Tv(1).png"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Category\\Tv.png",
+      "PackagePath": "staticwebassets\\Images\\Category\\Tv.png"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Category\\Watch(1).jpg",
+      "PackagePath": "staticwebassets\\Images\\Category\\Watch(1).jpg"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Category\\Watch(1).png",
+      "PackagePath": "staticwebassets\\Images\\Category\\Watch(1).png"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Category\\Watch.jpg",
+      "PackagePath": "staticwebassets\\Images\\Category\\Watch.jpg"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Category\\Watch.png",
+      "PackagePath": "staticwebassets\\Images\\Category\\Watch.png"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Products\\Samsungt.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\Samsungt.png"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Products\\indir.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Products\\indir.jpeg"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Products\\pro1.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\pro1.png"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Products\\tv1.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\tv1.png"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\css\\bootswatchTheme.css",
+      "PackagePath": "staticwebassets\\css\\bootswatchTheme.css"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.TestWithMVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.TestWithMVC.props",
+      "PackagePath": "build\\TestWithMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.TestWithMVC.props",
+      "PackagePath": "buildMultiTargeting\\TestWithMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.TestWithMVC.props",
+      "PackagePath": "buildTransitive\\TestWithMVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

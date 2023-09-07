@@ -1,0 +1,61 @@
+﻿@model HomeViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+
+    <div class="text-center">
+        <h1 class="display-4">Gategory</h1>
+    </div>
+    <div class="border p-3 mt-4 ">
+        <table class='table table-striped style= "width: 100%;"'>
+            @foreach (var obj in Model.Categories)
+            {
+                <td> <a href="@Url.Action("Detail", "Category", new { Category_name = obj.Name })">@obj.Name</a></td>
+            }
+        </table>
+    </div>
+
+    <h1><a asp-controller="Product" asp-action="Index">Products</a></h1>
+    <table class="table table-striped style=" width: 100%;">
+        <header>
+
+        </header>
+        <tbody>
+
+            @foreach (var obj in Model.Products)
+            {
+                <tr>
+                    <td><img style="width:180px;height:100px;" src="@Url.Content("~/images/products/" + @obj.ImageName)"
+                            alt="Product Image" />
+                    </td>
+                    <td>@obj.Name</td>
+                    <td>@obj.Category_name</td>
+                    <td>@obj.Description</td>
+                    <td>@obj.Price</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div class="border p-3 mt-4" >
+        <ul class="list-unstyled product-list">
+            @foreach (var product in Model.Products)
+            {
+                <li class="product-item">
+                    <div class="product-info">@product.Category_name</div>
+                    <img src="@Url.Content("~/images/products/" + product.ImageName)" alt="Product Image" />
+                    <div class="product-info">
+                        <p>@product.Description</p>
+                        <p>@product.Name - @product.Price</p>
+                    </div>
+                    <a asp-controller="Product" asp-action="Detail" asp-route-id="@product.ID" class="btn btn-secondary my-2 my-sm-0"
+                        style="width:150px ;">
+                        Show Product
+                    </a>
+                </li>
+            }
+        </ul>
+    </div>
+
+</div>

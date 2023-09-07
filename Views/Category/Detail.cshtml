@@ -1,0 +1,32 @@
+@model CategoryDetailViewModel
+
+@{
+    ViewData["Title"] = @Model.Category.Name;
+}
+<h1>@Model.Category.Name</h1>
+
+
+<div class="row">
+    <div class="col-md-6">
+        <img src="@Url.Content("~/images/Category/" + @Model.Category.Name + ".png")" alt="Category Image 1" class="img-fluid" />
+    </div>
+    <div class="col-md-6">
+        <img src="@Url.Content("~/images/Category/" + @Model.Category.Name + "(1).png")" alt="Category Image 2" class="img-fluid" />
+    </div>
+</div>
+
+<div class="border p-3 mt-4">
+    <ul class="list-unstyled product-list">
+        @foreach (var product in Model.Products)
+        {
+            
+            <li class="product-item"><div class="product-info">@product.Category_name</div>
+                <img src="@Url.Content("~/images/products/" + product.ImageName)" alt="Product Image" />
+                <div class="product-info">
+                    <p>@product.Description</p>
+                    <p>@product.Name - @product.Price</p>
+                </div>
+            </li>
+        }
+    </ul>
+</div>

@@ -1,0 +1,64 @@
+﻿@model Product
+
+
+<form method="post" asp-action="Edit">
+    <div class="border p-3 mt-4 ">
+        <div class="row pd-2"> <h2 class="text-primary">Edit Product</h2></div>
+        <hr/>
+    
+    @* <div asp-validation-summary="All"></div> *@
+    <div class="mb-3">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+        
+    </div>
+    <div class="mb-3">
+        <label asp-for="Category_name"></label>
+        <input asp-for="Category_name" class="form-control" />
+        <span asp-validation-for="Category_name" class="text-danger"></span>
+        
+    </div>
+    <div class="mb-3">
+        <label asp-for="Description"></label>
+        <input asp-for="Description" class="form-control" />
+        <span asp-validation-for="Description" class="text-danger"></span>
+        
+    </div>
+    <div class="mb-3">
+        <label asp-for="Price"></label>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+        
+    </div>
+
+
+    <div class="mb-3">
+        <label asp-for="ImageName"></label>
+        <input asp-for="ImageName" class="form-control" />
+        <span asp-validation-for="ImageName" class="text-danger"></span>
+    </div>
+     <div class="mb-3">
+         <label asp-for="ImagePath">Image Path</label>
+        <input asp-for="ImagePath" class="form-control" />
+        <span asp-validation-for="ImagePath" class="text-danger"></span>
+    </div> 
+    <div class="mb-3">
+        <label asp-for="CreatedDataTime">Edit Data Time</label>
+        <input asp-for="CreatedDataTime" class="form-control" />
+        <span asp-validation-for="CreatedDataTime" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary" style="width:150px">update</button>
+        <a asp-controller="Product" asp-action="Index" class="btn btn-secondary" style="width:150px ;">
+        Back to List
+    </a>
+    </div>
+</form>
+
+@section Scripts{
+
+    @{
+        <partial name="_ValidationScriptsPartial"/>
+    }
+
+}

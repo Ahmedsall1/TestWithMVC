@@ -1,0 +1,67 @@
+@model IEnumerable<Product>
+@{
+    ViewData["Title"] = "Product";
+}
+
+
+@* @Html.ActionLink("Product","Index","Product") *@
+
+
+
+<br /><br /><br />
+<div class="text-center">
+    <h1 class="display-4">Products</h1>
+
+    <table class="table table-striped style=" width: 100%;">
+        <header>
+            <tr class="border p-3 mt-4 ">
+            <th>  </th>
+            <th> Product Id </th>
+            <th>Product Name </th>
+            <th>Product Category Name </th>
+            <th>Product Description </th>
+            <th>Product Price </th>
+            
+                <th> CreatedDataTime </th>
+                
+                <th>
+                    Category List &nbsp; &nbsp;
+                <a asp-asp-controller="Product" asp-action="Create" class="btn btn-primary">
+                    <i class="bi bi-plus-circle"></i> &nbsp; Create New Product
+                </a>
+                </th>
+                <th></th>
+
+            </tr>
+        </header>
+        <tbody>
+            
+            @foreach (var obj in Model)
+            {
+                <tr >
+                    <td ><img  style="width:180px;height:100px;" src="@Url.Content("~/images/products/" + @obj.ImageName)" alt="Product Image" /></td>
+                    <td>@obj.ID</td>
+                    <td>@obj.Name</td>
+                    <td>@obj.Category_name</td>
+                    <td>@obj.Description</td>
+                    <td>@obj.Price</td>
+                    <td>@obj.CreatedDataTime</td>
+                    
+                       <td>
+                        <div class="w-75 btn-group" role="group">
+                            <a asp-controller="Product" asp-action="Edit" asp-route-id="@obj.ID"
+                                class="btn btn-primary mx-2"><i class="bi bi-pencil-square"></i> Edit</a>
+
+                            <a asp-controller="Product" asp-action="Delete" asp-route-id="@obj.ID"
+                                class="btn btn-danger mx-2"><i class="bi bi-trash-fill"></i> Delete</a>
+                        </div>
+                    </td>
+                </tr>
+                
+                }
+            
+
+        </tbody>
+    </table>
+
+</div>

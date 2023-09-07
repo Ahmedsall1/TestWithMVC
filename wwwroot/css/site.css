@@ -1,0 +1,34 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+.product-list {
+  list-style: none;
+  padding: 0;
+}
+
+.product-item {
+  display: inline-block;
+  width: 200px; /* Set the width for each product item */
+  margin-right: 10px; /* Add margin for spacing between items */
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.product-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-info {
+  margin-top: 10px;
+}
+
+
+

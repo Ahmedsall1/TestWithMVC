@@ -1,0 +1,54 @@
+@model IEnumerable<Category>
+
+@{
+    ViewData["Title"] = "Gategory";
+}
+
+@Html.ActionLink("Category","Detail","Category",new { Category_name = "Laptop" }) 
+
+
+
+<br /><br /><br />
+<div class="border p-3 mt-4 ">
+    <div class="text-center">
+        <h1 class="display-4">Gategory</h1>
+
+        <table class="table table-striped" style=" width: 100%;">
+            <header>
+                <tr class="border p-3 mt-4 ">
+
+                    <th> Category Id </th>
+                    <th >Category Name </th>
+                    <th > CreatedDataTime </th>
+                    <th >
+                        Category List &nbsp; &nbsp;
+                        <a asp-asp-controller="Category" asp-action="Create" class="btn btn-primary">
+                            <i class="bi bi-plus-circle"></i> &nbsp; Create New Category</a>
+                    </th>
+                    <th></th>
+
+                </tr>
+            </header>
+            <tbody>
+                @foreach (var obj in Model)
+                {
+                    <tr >
+                        <td>@obj.ID</td>
+                        <td><a href="@Url.Action("Detail", "Category", new { Category_name = obj.Name })">@obj.Name</a></td>
+                        <td>@obj.CreatedDataTime</td>
+                        <td>
+                            <div class="w-75 btn-group" role="group">
+                                <a asp-controller="Category" asp-action="Edit" asp-route-id="@obj.ID"
+                                    class="btn btn-primary mx-2"><i class="bi bi-pencil-square"></i> Edit</a>
+
+                                <a asp-controller="Category" asp-action="Delete" asp-route-id="@obj.ID"
+                                    class="btn btn-danger mx-2"><i class="bi bi-trash-fill"></i> Delete</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+</div>
