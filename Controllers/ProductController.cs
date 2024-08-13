@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using TestWithMVC.Data;
 using TestWithMVC.Models;
 
@@ -13,13 +14,17 @@ public class ProductController : Controller
     {
         _db = db;
     }
-    public ActionResult Index(){
-        IEnumerable<Product> objProductList=_db.Products.ToList();
+    
+    public ActionResult Index()
+    {
+        IEnumerable<Product> objProductList = _db.Products.ToList();
         return View(objProductList);
     }
+    
+    
     public ActionResult Create()
     {
-        
+
         return View();
     }
     //post
@@ -27,11 +32,12 @@ public class ProductController : Controller
     [ValidateAntiForgeryToken]
     public IActionResult Create(Product obj)
     {
-        
-        if(ModelState.IsValid){
+
+        if (ModelState.IsValid)
+        {
             obj.ImagePath = Path.Combine("wwwroot/Images/Products", obj.ImageName);
             _db.Products.Add(obj);
-            
+
             _db.SaveChanges();
             TempData["success"] = "Product Created Successfully";
             return RedirectToAction("Index");
@@ -40,28 +46,26 @@ public class ProductController : Controller
     }
     public ActionResult Edit(int? id)
     {
-        if(id == null || id==0){
+        if (id == null || id == 0)
+        {
             return NotFound();
         }
 
         var productFromDb = _db.Products.Find(id);
 
-        if(productFromDb == null) return NotFound();
+        if (productFromDb == null) return NotFound();
 
         return View(productFromDb);
     }
     //post
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public IActionResult Edit(int? id,Product obj)
+    public IActionResult Edit(int? id, Product obj)
     {
-        foreach (var obj1 in _db.Products.ToList()) {
-            if (obj.Name == obj1.Name) {
-                ModelState.AddModelError("name", "this Product is existed");
-            }
-        } 
-        var newcat=_db.Products.Find(id);
-        if(ModelState.IsValid){
+        
+        var newcat = _db.Products.Find(id);
+        if (ModelState.IsValid)
+        {
             newcat.Name = obj.Name;
             newcat.Category_name = obj.Category_name;
             newcat.Description = obj.Description;
@@ -77,15 +81,50 @@ public class ProductController : Controller
     }
     public IActionResult Detail(int id)
     {
-        var product = _db.Products.Where(c => c.ID == id);
+        var product = _db.Products.FirstOrDefault(p => p.ID == id);
+
         if (product == null)
             return NotFound();
 
-        var category = _db.Products.Where(p => p.Category_name == product.Category_name);
-        var viewModel = new ProductDetailViewModel {
+        var category = _db.Categories.FirstOrDefault(c => c.Name == product.Category_name);
+
+        if (category == null)
+            return NotFound(); // Handle the case where the category is not found
+
+        var viewModel = new ProductDetailViewModel
+        {
             Category = category,
             Product = product
         };
+
         return View(viewModel);
     }
+    public ActionResult Delete(int? id)
+    {
+        if(id == null || id==0) return NotFound();
+        
+        var productFromDb = _db.Products.Find(id);
+
+        if(productFromDb == null) return NotFound();
+
+        return View(productFromDb);
+    }
+
+    //post
+    [HttpPost, ActionName("Delete")]
+    [ValidateAntiForgeryToken]
+    public IActionResult DeletePOST(int? id)
+    {
+        var obj=_db.Products.Find(id);
+        
+        if(obj == null) return NotFound();
+        
+        _db.Products.Remove(obj);
+        _db.SaveChanges();
+        TempData["success"] = "Product Deleted Successfully";
+        
+        return RedirectToAction("Index");
+    }
+
+
 }

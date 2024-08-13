@@ -1,28 +1,37 @@
 @model ProductDetailViewModel
 
 @{
-    ViewData["Title"] = @Model.product.Name;
+    ViewData["Title"] = @Model.Product.Name ;
 }
-<h1>@Model.product.Name</h1>
+<br>
+<br>
+<div class="border p-3 mt-4">
+       <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @Model.Product.Name @Model.Product.Category_name</h1>
 
 
 <div class="row">
     <div class="col-md-6">
-        <img src="@Url.Content("~/images/products/" + @Model.product.ImageName)" alt="Product Image" />
+        <img src="@Url.Content("~/images/products/" + @Model.Product.ImageName)" alt="Product Image" class="img-fluid" />
     
 </div>
 
-<div class="border p-3 mt-4">
+
     <ul class="list-unstyled product-list">
         
             
-            <li class="product-item"><div class="product-info">@Model.product.Category_name</div>
-                <img src="@Url.Content("~/images/products/" + @Model.product.ImageName)" alt="Product Image" />
-                <div class="product-info">
-                    <p>@Model.product.Description</p>
-                    <p>@Model.product.Name - @Model.product.Price</p>
+            <div >@Model.Product.Category_name Name: @Model.Product.Name </div>
+                <br>
+                <div >
+
+                    <p>Description : @Model.Product.Description</p>
+                    <br>
+                    <p>Price:  @Model.Product.Price $</p>
+                    <br>
                 </div>
-            </li>
+                <a asp-controller="Product" asp-action="Detail" asp-route-id="@Model.Product.ID" class="btn btn-success my-2 my-sm-0"
+                            style="width:150px ;"><i class="bi bi-bag-fill"></i>
+                            &nbsp; Buy 
+                            </a>
         
     </ul>
 </div>

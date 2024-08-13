@@ -32,3 +32,51 @@ html {
 
 
 
+/* Footer styling */
+#navFooter {
+  background-color: #f3f3f3; /* Background color */
+  padding: 20px 0;
+  border-top: 1px solid #ddd; /* Top border */
+}
+
+/* Styling for "Back to top" link */
+#navBackToTop {
+  text-decoration: none;
+  color: #0066c0; /* Link color */
+  display: inline-block;
+  margin-bottom: 10px; /* Space below link */
+}
+
+/* Style for column headers */
+.navFooterColHead {
+  
+  font-weight: bold;
+  margin-bottom: 10px; /* Space below headers */
+}
+
+/* Style for footer links */
+.nav_a {
+  color: #555; /* Link color */
+  text-decoration: none;
+}
+
+.nav_a:hover {
+  color: #0066c0; /* Link color on hover */
+}
+
+/* Style for copyright text */
+.navFooterCopyright {
+  font-size: 12px;
+  margin-top: 20px; /* Space above copyright text */
+  color: #555; /* Copyright text color */
+}
+
+.form-containerr {
+       
+  width: 320px;
+  border-radius: 0.75rem;
+  background-color: rgba(17, 24, 39, 1);
+  padding: 2rem;
+  color: rgba(243, 244, 246, 1);
+}
+

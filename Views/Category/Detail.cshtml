@@ -20,11 +20,23 @@
         @foreach (var product in Model.Products)
         {
             
-            <li class="product-item"><div class="product-info">@product.Category_name</div>
+            <li class="product-item">
                 <img src="@Url.Content("~/images/products/" + product.ImageName)" alt="Product Image" />
                 <div class="product-info">
-                    <p>@product.Description</p>
-                    <p>@product.Name - @product.Price</p>
+                    <p>@product.Description  </p>
+                    <p>@product.Category_name - @product.Name </p>
+                    <p><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i></p>
+                    <a asp-controller="Product" asp-action="Detail" asp-route-id="@product.ID"
+                            class="btn btn-success my-2 my-sm-0" style="width: 150px;">
+                            <i class="bi bi-bag-fill"></i>
+                            &nbsp; Buy @product.Price $
+                        </a>
+                        <br /><br />
+                        <a asp-controller="Product" asp-action="Detail" asp-route-id="@product.ID"
+                            class="btn btn-primary my-2 my-sm-0" style="width: 150px;">
+                            <i class="bi bi-eye-fill"></i>
+                            &nbsp; Show
+                        </a>
                 </div>
             </li>
         }

@@ -8,14 +8,21 @@
     <div class="text-center">
         <h1 class="display-4">Gategory</h1>
     </div>
-    <div class="border p-3 mt-4 ">
-        <table class='table table-striped style= "width: 100%;"'>
-            @foreach (var obj in Model.Categories)
-            {
-                <td> <a href="@Url.Action("Detail", "Category", new { Category_name = obj.Name })">@obj.Name</a></td>
-            }
-        </table>
-    </div>
+    <div class="border p-3 mt-4 " >
+    <table class="table table-striped" style=" ">
+        @foreach (var obj in Model.Categories)
+        {
+            <td style=" width: 200px; text-align: center;"> <!-- Adjust the width as needed -->
+                <img  src="@Url.Content("~/images/Category/" + @obj.Name + ".png")" alt="Category Image 1" class="img-fluid" style=" border-radius: 50%; width: 100px; height: 100px;" /> <!-- Adjust width and height as needed -->
+                <br />
+                <a class="btn btn-success my-2 my-sm-0" href="@Url.Action("Detail", "Category", new { Category_name = obj.Name })">@obj.Name</a>
+            </td>
+        
+        }
+    </table>
+</div>
+
+
 
     <h1><a asp-controller="Product" asp-action="Index">Products</a></h1>
     <table class="table table-striped style=" width: 100%;">
@@ -32,30 +39,84 @@
                     </td>
                     <td>@obj.Name</td>
                     <td>@obj.Category_name</td>
-                    <td>@obj.Description</td>
-                    <td>@obj.Price</td>
+                    <td>@if (!string.IsNullOrEmpty(@obj.Description) && @obj.Description.Length > 100)
+                            {
+                                <p>@obj.Description.Substring(0, 100)...</p>
+                            }
+                            else
+                            {
+                                <p>@obj.Description</p>
+                            }</td>
+                    <td><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i></td>
+                    <td>
+                        <a asp-controller="Product" asp-action="Detail" asp-route-id="@obj.ID"
+                            class="btn btn-success my-2 my-sm-0" style="width: 150px;">
+                            <i class="bi bi-bag-fill"></i>
+                            &nbsp; Buy @obj.Price $
+                        </a>
+                        <br /><br />
+                        <a asp-controller="Product" asp-action="Detail" asp-route-id="@obj.ID"
+                            class="btn btn-primary my-2 my-sm-0" style="width: 150px;">
+                            <i class="bi bi-eye-fill"></i>
+                            &nbsp; Show
+                        </a>
+                    </td>
                 </tr>
             }
         </tbody>
     </table>
-    <div class="border p-3 mt-4" >
+        
+    <div class="border p-3 mt-4">
         <ul class="list-unstyled product-list">
             @foreach (var product in Model.Products)
             {
                 <li class="product-item">
-                    <div class="product-info">@product.Category_name</div>
+
                     <img src="@Url.Content("~/images/products/" + product.ImageName)" alt="Product Image" />
                     <div class="product-info">
-                        <p>@product.Description</p>
-                        <p>@product.Name - @product.Price</p>
+
+                        <p>@product.Name - @product.Category_name
+                            @if (!string.IsNullOrEmpty(@product.Description) && @product.Description.Length > 100)
+                            {
+                                <p>@product.Description.Substring(0, 100)...</p>
+                            }
+                            else
+                            {
+                                <p>@product.Description</p>
+                            }
+                        <p><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i></p>
+                        <a asp-controller="Product" asp-action="Detail" asp-route-id="@product.ID"
+                            class="btn btn-success my-2 my-sm-0" style="width:150px ;"><i class="bi bi-bag-fill"> </i>
+                            &nbsp; Buy @product.Price $
+                        </a>
+
+                        </p>
                     </div>
-                    <a asp-controller="Product" asp-action="Detail" asp-route-id="@product.ID" class="btn btn-secondary my-2 my-sm-0"
-                        style="width:150px ;">
-                        Show Product
+                    <a asp-controller="Product" asp-action="Detail" asp-route-id="@product.ID"
+                        class="btn btn-primary my-2 my-sm-0" style="width:150px ;"><i class="bi bi-eye-fill"> </i>
+                        &nbsp; Show
                     </a>
                 </li>
             }
         </ul>
     </div>
 
+</div>
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    @foreach (var obj in Model.Products)
+            {
+    <div class="carousel-item">
+      <img src="@Url.Content("~/images/products/" + @obj.ImageName)" class="d-block w-100" alt="Product Image">
+    </div>
+            }
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>

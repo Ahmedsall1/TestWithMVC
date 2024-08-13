@@ -101,12 +101,32 @@
       "PackagePath": "staticwebassets\\Images\\Products\\indir.jpeg"
     },
     {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Products\\iphone.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Products\\iphone.jpeg"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Products\\iphone.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\iphone.png"
+    },
+    {
       "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Products\\pro1.png",
       "PackagePath": "staticwebassets\\Images\\Products\\pro1.png"
     },
     {
       "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Products\\tv1.png",
       "PackagePath": "staticwebassets\\Images\\Products\\tv1.png"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Products\\watch.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\watch.png"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Products\\watch2.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Products\\watch2.jpeg"
+    },
+    {
+      "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\Images\\Products\\watch2.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\watch2.png"
     },
     {
       "Id": "B:\\Visual_2020\\C#\\TestWithMVC\\wwwroot\\css\\bootswatchTheme.css",

@@ -1,6 +1,8 @@
-
 using Microsoft.EntityFrameworkCore;
 using TestWithMVC.Data;
+using Microsoft.AspNetCore.Identity;
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -8,7 +10,13 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDbContext>(options=>options.UseSqlServer(
     builder.Configuration.GetConnectionString("DefaultConnection")
 ));
-builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
+
+
+builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount=true)
+    .AddEntityFrameworkStores<ApplicationDbContext>();
+
+builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
@@ -41,5 +49,6 @@ app.MapControllerRoute(
         pattern: "Category/Detail/{category_name}",
         defaults: new { controller = "Category", action = "Detail" }
     );
+app.MapRazorPages();
 
 app.Run();
